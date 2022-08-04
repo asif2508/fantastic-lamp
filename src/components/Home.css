@@ -1,0 +1,68 @@
+.main-row {
+  margin-top: 1em;
+}
+.video-container {
+  border: 10px solid #fff;
+  border-radius: 0.3em;
+  box-shadow: 1px 1px 8px 2px #888888;
+  height: 28em;
+}
+
+.footer-row {
+  margin-top: 2.5em;
+}
+
+.mic-button {
+  background-color: #fff;
+  padding: 0.8em;
+  cursor: pointer;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  box-shadow: 1px 1px 8px 2px #95a5a6;
+}
+
+.mic-button.muted-icon {
+  background-color: #db3e30;
+  color: #fff;
+  padding: 0.8em;
+  padding-left: 1em;
+  padding-right: 1em;
+  cursor: pointer;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  box-shadow: 1px 1px 8px 2px #95a5a6;
+}
+
+.mic-button:hover {
+  box-shadow: 1px 1px 15px 2px #95a5a6;
+}
+
+.clear-button {
+  margin-left: 1em;
+  background-color: #db3e30;
+  color: #fff;
+  padding: 0.8em;
+  cursor: pointer;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 2em;
+  box-shadow: 1px 1px 8px 2px #95a5a6;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+
+span.error-label {
+  padding: 10px;
+  color: #fff;
+  background-color: #da362a;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 190px;
+  margin: 30px;
+}
